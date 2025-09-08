@@ -7,7 +7,7 @@ setInterval(() => {
     document.getElementById('timestamp-minutes').innerHTML=('Minutes '+Math.round((born/1000)/60))
     document.getElementById('timestamp-seconds').innerHTML=('Seconds '+Math.round(born/1000))
     document.getElementById('timestamp-milliseconds').innerHTML=('Milliseconds '+(born))
-    document.getElementById('timestamp-microseconds').innerHTML=('Microseconds '+(born*1001))
+    document.getElementById('timestamp-microseconds').innerHTML=('Microseconds '+Math.round((born*1000)+Math.random()*999))
 }, 1);
 
     
