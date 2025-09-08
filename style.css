@@ -1,0 +1,11 @@
+#bottom{
+    position: fixed;
+    top: 45%;
+    left: 0;
+}
+#top{
+    position: fixed;
+    top: 45%;
+    transform: scaleX(-1);
+
+}
