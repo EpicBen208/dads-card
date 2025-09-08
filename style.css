@@ -1,3 +1,14 @@
+:root{
+    background-image: url('bg.png');
+    background-size: 400%;
+    background-position-x: 50%;
+    background-position-y: -0%;
+}
+.timestamp{
+    position: fixed;
+    text-align: center;
+    top: 10%;
+}
 #bottom{
     position: fixed;
     top: 45%;
